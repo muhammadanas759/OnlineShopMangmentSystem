@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	char name[];
+	printf("enter your name;");
+	scanf=("%d",name);
+	FILE *fp;
+	fp=fopen(fp,"hafiz.txt",name);
+	fclose(fp);
+	getch();
+	return 0;
+}
